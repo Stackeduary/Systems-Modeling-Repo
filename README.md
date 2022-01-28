@@ -2,9 +2,6 @@
 
 ## Personal Data
 
-- Name: Bill Sendewicz
-- Student ID: B98041
-- E-Mail: billsendewicz@gmail.com
 - Webpage: https://gitlab.cs.ut.ee/williamj
 - Strength/experience:
   - Education
