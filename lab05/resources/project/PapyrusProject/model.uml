@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ATM_Withdrawal="http:///schemas/ATM_Withdrawal/_WZ_dUC_oEeyX_uD1Ep--ZA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/ATM_Withdrawal/_WZ_dUC_oEeyX_uD1Ep--ZA/0 ATM_Withdrawal.profile.uml#_WaEV0C_oEeyX_uD1Ep--ZA">
+  <uml:Model xmi:id="_hv9QAC_oEeyX_uD1Ep--ZA" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_hwfbgC_oEeyX_uD1Ep--ZA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_o8iygC_oEeyX_uD1Ep--ZA" name="Sarp">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TyZzMC_sEeyX_uD1Ep--ZA" name="Name"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wb5lAC_sEeyX_uD1Ep--ZA" name="TelephoneNumber"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_enXKkC_sEeyX_uD1Ep--ZA" name="AccountNumber"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hife8C_sEeyX_uD1Ep--ZA" name="Email"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_j3Q98C_sEeyX_uD1Ep--ZA" name="PIN"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mcIHYC_sEeyX_uD1Ep--ZA" name="CardNumber"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0XXQAC_oEeyX_uD1Ep--ZA" name="Bill">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kjyQQC_tEeyX_uD1Ep--ZA" name="Name"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ntYecC_tEeyX_uD1Ep--ZA" name="EmployeeId"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3wg9IC_oEeyX_uD1Ep--ZA" name="SwedBank">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bv5_0C_tEeyX_uD1Ep--ZA" name="Name"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fQ-54C_tEeyX_uD1Ep--ZA" name="CustomerServiceNumber"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_iBtVEC_tEeyX_uD1Ep--ZA" name="Address"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_546NAC_oEeyX_uD1Ep--ZA" name="SwedATM">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VZ_moC_tEeyX_uD1Ep--ZA" name="LocationAddress"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YamQ4C_tEeyX_uD1Ep--ZA" name="CurrentCashAmount"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7-gAgC_oEeyX_uD1Ep--ZA" name="SwedAccount">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rVhfQC_sEeyX_uD1Ep--ZA" name="OwnerName"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_u4jhIC_sEeyX_uD1Ep--ZA" name="AccountNumber"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xA4fkC_sEeyX_uD1Ep--ZA" name="Balance"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-uJdoC_oEeyX_uD1Ep--ZA" name="SwedTransaction">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1719sC_sEeyX_uD1Ep--ZA" name="TransactionId"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5SLAUC_sEeyX_uD1Ep--ZA" name="Date"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_762SwC_sEeyX_uD1Ep--ZA" name="Time"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-ggtcC_sEeyX_uD1Ep--ZA" name="Amount"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Tkk58C_pEeyX_uD1Ep--ZA" client="_0XXQAC_oEeyX_uD1Ep--ZA" supplier="_3wg9IC_oEeyX_uD1Ep--ZA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_UgoSgC_pEeyX_uD1Ep--ZA" client="_o8iygC_oEeyX_uD1Ep--ZA" supplier="_3wg9IC_oEeyX_uD1Ep--ZA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_YfUVoC_pEeyX_uD1Ep--ZA" client="_3wg9IC_oEeyX_uD1Ep--ZA" supplier="_546NAC_oEeyX_uD1Ep--ZA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ZvTW0C_pEeyX_uD1Ep--ZA" client="_546NAC_oEeyX_uD1Ep--ZA" supplier="_-uJdoC_oEeyX_uD1Ep--ZA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_q6uhAC_pEeyX_uD1Ep--ZA" client="_o8iygC_oEeyX_uD1Ep--ZA" supplier="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xNSEMC_pEeyX_uD1Ep--ZA" name="CheckingSwedAccount">
+      <generalization xmi:type="uml:Generalization" xmi:id="_5sOmcC_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QW58sC_sEeyX_uD1Ep--ZA" name="RemainingWithdrawalLimit"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1e8GoC_pEeyX_uD1Ep--ZA" name="SavingsSwedAccount">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6Ya-EC_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KLCQUC_sEeyX_uD1Ep--ZA" name="DailyInterestRate"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8q1FkC_pEeyX_uD1Ep--ZA" name="SwedDeposit">
+      <generalization xmi:type="uml:Generalization" xmi:id="_8q1FkS_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_9YNzMC_tEeyX_uD1Ep--ZA" general="_-uJdoC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IEXpUC_tEeyX_uD1Ep--ZA" name="MadeBy"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8q1Fki_pEeyX_uD1Ep--ZA" name="SwedWithdrawal">
+      <generalization xmi:type="uml:Generalization" xmi:id="_8q1Fky_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_-Y2w0C_tEeyX_uD1Ep--ZA" general="_-uJdoC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BCtkcC_tEeyX_uD1Ep--ZA" name="MadeBy"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9h3bQC_pEeyX_uD1Ep--ZA" name="SwedBalanceInquiry">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9h3bQS_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_BYNd4C_uEeyX_uD1Ep--ZA" general="_-uJdoC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Rf0QEC_tEeyX_uD1Ep--ZA" name="AccountId"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9h4CUC_pEeyX_uD1Ep--ZA" name="SwedBalanceTransfer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_9h4CUS_pEeyX_uD1Ep--ZA" general="_7-gAgC_oEeyX_uD1Ep--ZA"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="__PQ0YC_tEeyX_uD1Ep--ZA" general="_-uJdoC_oEeyX_uD1Ep--ZA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JbtPsC_tEeyX_uD1Ep--ZA" name="MadeBy"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MvFE8C_tEeyX_uD1Ep--ZA" name="From"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OSYDsC_tEeyX_uD1Ep--ZA" name="To"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nHeHQC_oEeyX_uD1Ep--ZA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nHf8cC_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="ATM_Withdrawal.profile.uml#_WaEV0C_oEeyX_uD1Ep--ZA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="ATM_Withdrawal.profile.uml#_9723UC_jEeyX_uD1Ep--ZA"/>
+    </profileApplication>
+  </uml:Model>
+  <ATM_Withdrawal:Client xmi:id="_weObQC_oEeyX_uD1Ep--ZA" base_Class="_o8iygC_oEeyX_uD1Ep--ZA"/>
+  <ATM_Withdrawal:ATMToBank xmi:id="_fuuioC_pEeyX_uD1Ep--ZA" base_Dependency="_YfUVoC_pEeyX_uD1Ep--ZA"/>
+  <ATM_Withdrawal:ATMToTransaction xmi:id="_iHiNEC_pEeyX_uD1Ep--ZA" base_Dependency="_ZvTW0C_pEeyX_uD1Ep--ZA"/>
+  <ATM_Withdrawal:ClientToBank xmi:id="_oDrbYC_pEeyX_uD1Ep--ZA" base_Dependency="_UgoSgC_pEeyX_uD1Ep--ZA"/>
+  <ATM_Withdrawal:ClientToAccount xmi:id="_sdzdUC_pEeyX_uD1Ep--ZA" base_Dependency="_q6uhAC_pEeyX_uD1Ep--ZA"/>
+  <ATM_Withdrawal:RepresentativeToBank xmi:id="_t_KiYC_pEeyX_uD1Ep--ZA" base_Dependency="_Tkk58C_pEeyX_uD1Ep--ZA"/>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<svg width="258px" height="159px"
+ viewBox="0.00 0.00 258.00 159.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(4 155)">
+<title>org.example</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-155 254,-155 254,4 -4,4"/>
+<!-- House -->
+<g id="node1" class="node">
+<title>House</title>
+<polygon fill="none" stroke="#000000" points="8,-125.5 8,-146.5 108,-146.5 108,-125.5 8,-125.5"/>
+<text text-anchor="start" x="35" y="-132.3" font-family="Times,serif" font-size="14.00" fill="#000000">House</text>
+<polygon fill="none" stroke="#000000" points="8,-89.5 8,-125.5 108,-125.5 108,-89.5 8,-89.5"/>
+<text text-anchor="start" x="11" y="-111.3" font-family="Times,serif" font-size="14.00" fill="#000000">name :String</text>
+<text text-anchor="start" x="11" y="-96.3" font-family="Times,serif" font-size="14.00" fill="#000000">pebbles :int</text>
+</g>
+<!-- Person -->
+<g id="node2" class="node">
+<title>Person</title>
+<polygon fill="none" stroke="#000000" points="75,-25 75,-46 175,-46 175,-25 75,-25"/>
+<text text-anchor="start" x="100.5" y="-31.8" font-family="Times,serif" font-size="14.00" fill="#000000">Person</text>
+<polygon fill="none" stroke="#000000" points="75,-4 75,-25 175,-25 175,-4 75,-4"/>
+<text text-anchor="start" x="78" y="-10.8" font-family="Times,serif" font-size="14.00" fill="#000000">name :String</text>
+</g>
+<!-- Person&#45;&gt;House -->
+<g id="edge1" class="edge">
+<title>Person&#45;&gt;House</title>
+<path fill="none" stroke="#000000" d="M107.0452,-50.0563C99.1378,-61.0913 89.7455,-74.1984 81.307,-85.9746"/>
+<text text-anchor="middle" x="50.307" y="-74.7746" font-family="Times,serif" font-size="14.00" fill="#000000">houses *</text>
+<text text-anchor="middle" x="100.5452" y="-53.8563" font-family="Times,serif" font-size="14.00" fill="#000000"> *</text>
+</g>
+<!-- Store -->
+<g id="node3" class="node">
+<title>Store</title>
+<polygon fill="none" stroke="#000000" points="142,-125.5 142,-146.5 242,-146.5 242,-125.5 142,-125.5"/>
+<text text-anchor="start" x="172" y="-132.3" font-family="Times,serif" font-size="14.00" fill="#000000">Store</text>
+<polygon fill="none" stroke="#000000" points="142,-89.5 142,-125.5 242,-125.5 242,-89.5 142,-89.5"/>
+<text text-anchor="start" x="145" y="-111.3" font-family="Times,serif" font-size="14.00" fill="#000000">name :String</text>
+<text text-anchor="start" x="145" y="-96.3" font-family="Times,serif" font-size="14.00" fill="#000000">pebbles :int</text>
+</g>
+<!-- Person&#45;&gt;Store -->
+<g id="edge2" class="edge">
+<title>Person&#45;&gt;Store</title>
+<path fill="none" stroke="#000000" d="M142.9548,-50.0563C150.8622,-61.0913 160.2545,-74.1984 168.693,-85.9746"/>
+<text text-anchor="middle" x="150.193" y="-74.7746" font-family="Times,serif" font-size="14.00" fill="#000000">store</text>
+<text text-anchor="middle" x="136.4548" y="-53.8563" font-family="Times,serif" font-size="14.00" fill="#000000"> *</text>
+</g>
+</g>
+</svg>

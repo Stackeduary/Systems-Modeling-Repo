@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9723UC_jEeyX_uD1Ep--ZA" name="ATM_Withdrawal" metaclassReference="_dOJ1kC_kEeyX_uD1Ep--ZA _dOLDsC_kEeyX_uD1Ep--ZA">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaDuwC_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_WaEV0C_oEeyX_uD1Ep--ZA" name="ATM_Withdrawal" nsURI="http:///schemas/ATM_Withdrawal/_WZ_dUC_oEeyX_uD1Ep--ZA/0" nsPrefix="ATM_Withdrawal">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaGyEC_oEeyX_uD1Ep--ZA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaGyES_oEeyX_uD1Ep--ZA" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaGyEi_oEeyX_uD1Ep--ZA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaGyEy_oEeyX_uD1Ep--ZA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaGyFC_oEeyX_uD1Ep--ZA" key="Date" value="2021-10-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WaGyFS_oEeyX_uD1Ep--ZA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV0S_oEeyX_uD1Ep--ZA" name="ATM">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV0i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_FcCrQC_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV0y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV1S_oEeyX_uD1Ep--ZA" name="Account">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV1i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_HBAd8C_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV1y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV2S_oEeyX_uD1Ep--ZA" name="Client">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV2i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ItnJsC_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV2y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV3S_oEeyX_uD1Ep--ZA" name="Bank">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV3i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_KR-fcC_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV3y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV4S_oEeyX_uD1Ep--ZA" name="Transanction">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV4i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_LeMa8C_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV4y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV5S_oEeyX_uD1Ep--ZA" name="Representative">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV5i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_SgBe8C_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV5y_oEeyX_uD1Ep--ZA" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV6S_oEeyX_uD1Ep--ZA" name="ClientToAccount">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV6i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_-hqdoC_kEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV6y_oEeyX_uD1Ep--ZA" name="base_Dependency" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV7S_oEeyX_uD1Ep--ZA" name="ClientToBank">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV7i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_F0VaAC_lEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV7y_oEeyX_uD1Ep--ZA" name="base_Dependency" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV8S_oEeyX_uD1Ep--ZA" name="ATMToTransaction">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV8i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PMv64C_lEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV8y_oEeyX_uD1Ep--ZA" name="base_Dependency" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV9S_oEeyX_uD1Ep--ZA" name="RepresentativeToBank">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV9i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_j2e_AC_lEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV9y_oEeyX_uD1Ep--ZA" name="base_Dependency" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV-S_oEeyX_uD1Ep--ZA" name="ATMToBank">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV-i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tMIfwC_lEeyX_uD1Ep--ZA"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_WaEV-y_oEeyX_uD1Ep--ZA" name="base_Dependency" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Dependency"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEV_S_oEeyX_uD1Ep--ZA" name="Withdrawal" eSuperTypes="_WaEV4S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEV_i_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_I-B5YC_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEWAC_oEeyX_uD1Ep--ZA" name="Deposit" eSuperTypes="_WaEV4S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEWAS_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_MD9vkC_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEWAy_oEeyX_uD1Ep--ZA" name="BalanceTransfer" eSuperTypes="_WaEV4S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEWBC_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgXlAC_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEWBi_oEeyX_uD1Ep--ZA" name="BalanceInquiry" eSuperTypes="_WaEV4S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEWBy_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_PgXlAS_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEWCS_oEeyX_uD1Ep--ZA" name="CheckingAccount" eSuperTypes="_WaEV1S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEWCi_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_atDf4C_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_WaEWDC_oEeyX_uD1Ep--ZA" name="SavingsAccount" eSuperTypes="_WaEV1S_oEeyX_uD1Ep--ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WaEWDS_oEeyX_uD1Ep--ZA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_eTjFcC_mEeyX_uD1Ep--ZA"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_dOJ1kC_kEeyX_uD1Ep--ZA" alias="Class">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_dOLDsC_kEeyX_uD1Ep--ZA" alias="Dependency">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9_1YYC_jEeyX_uD1Ep--ZA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_9_1_cC_jEeyX_uD1Ep--ZA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_FcCrQC_kEeyX_uD1Ep--ZA" name="ATM">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7gpuQS_lEeyX_uD1Ep--ZA" name="base_Class" association="_7gpHMC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gpuQi_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_HBAd8C_kEeyX_uD1Ep--ZA" name="Account">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sqpjUC_lEeyX_uD1Ep--ZA" name="base_Class" association="_sqo8QC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sqpjUS_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ItnJsC_kEeyX_uD1Ep--ZA" name="Client">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ff8SAC_kEeyX_uD1Ep--ZA" name="base_Class" association="_ff6c0C_kEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ff8SAS_kEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_KR-fcC_kEeyX_uD1Ep--ZA" name="Bank">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Dof_IS_mEeyX_uD1Ep--ZA" name="base_Class" association="_DofYEC_mEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Dof_Ii_mEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_LeMa8C_kEeyX_uD1Ep--ZA" name="Transanction">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6461UC_kEeyX_uD1Ep--ZA" name="base_Class" association="_645nMC_kEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6461US_kEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_SgBe8C_kEeyX_uD1Ep--ZA" name="Representative">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gVEjMC_kEeyX_uD1Ep--ZA" name="base_Class" association="_gVDVEC_kEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gVEjMS_kEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_ff6c0C_kEeyX_uD1Ep--ZA" name="E_Client_Class11" memberEnd="_ff7q8C_kEeyX_uD1Ep--ZA _ff8SAC_kEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_ff7q8C_kEeyX_uD1Ep--ZA" name="extension_Client" type="_ItnJsC_kEeyX_uD1Ep--ZA" aggregation="composite" association="_ff6c0C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_gVDVEC_kEeyX_uD1Ep--ZA" name="E_Representative_Class12" memberEnd="_gVD8IC_kEeyX_uD1Ep--ZA _gVEjMC_kEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_gVD8IC_kEeyX_uD1Ep--ZA" name="extension_Representative" type="_SgBe8C_kEeyX_uD1Ep--ZA" aggregation="composite" association="_gVDVEC_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_645nMC_kEeyX_uD1Ep--ZA" name="E_Transanction_Class13" memberEnd="_646OQC_kEeyX_uD1Ep--ZA _6461UC_kEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_646OQC_kEeyX_uD1Ep--ZA" name="extension_Transanction" type="_LeMa8C_kEeyX_uD1Ep--ZA" aggregation="composite" association="_645nMC_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_-hqdoC_kEeyX_uD1Ep--ZA" name="ClientToAccount">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CLr4UC_lEeyX_uD1Ep--ZA" name="base_Dependency" association="_CLqqMC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CLr4US_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_CLqqMC_lEeyX_uD1Ep--ZA" name="E_ClientToAccount_Dependency1" memberEnd="_CLrRQC_lEeyX_uD1Ep--ZA _CLr4UC_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_CLrRQC_lEeyX_uD1Ep--ZA" name="extension_ClientToAccount" type="_-hqdoC_kEeyX_uD1Ep--ZA" aggregation="composite" association="_CLqqMC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_F0VaAC_lEeyX_uD1Ep--ZA" name="ClientToBank">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_J2iEIi_lEeyX_uD1Ep--ZA" name="base_Dependency" association="_J2iEIC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J2iEIy_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_J2iEIC_lEeyX_uD1Ep--ZA" name="E_ClientToBank_Dependency1" memberEnd="_J2iEIS_lEeyX_uD1Ep--ZA _J2iEIi_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_J2iEIS_lEeyX_uD1Ep--ZA" name="extension_ClientToBank" type="_F0VaAC_lEeyX_uD1Ep--ZA" aggregation="composite" association="_J2iEIC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_PMv64C_lEeyX_uD1Ep--ZA" name="ATMToTransaction">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_W9M_cS_lEeyX_uD1Ep--ZA" name="base_Dependency" association="_W9MYYC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_W9M_ci_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_W9MYYC_lEeyX_uD1Ep--ZA" name="E_ATMToTransaction_Dependency19" memberEnd="_W9M_cC_lEeyX_uD1Ep--ZA _W9M_cS_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_W9M_cC_lEeyX_uD1Ep--ZA" name="extension_ATMToTransaction" type="_PMv64C_lEeyX_uD1Ep--ZA" aggregation="composite" association="_W9MYYC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_j2e_AC_lEeyX_uD1Ep--ZA" name="RepresentativeToBank">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pXiz0S_lEeyX_uD1Ep--ZA" name="base_Dependency" association="_pXhlsC_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pXiz0i_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_pXhlsC_lEeyX_uD1Ep--ZA" name="E_RepresentativeToBank_Dependency21" memberEnd="_pXiz0C_lEeyX_uD1Ep--ZA _pXiz0S_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_pXiz0C_lEeyX_uD1Ep--ZA" name="extension_RepresentativeToBank" type="_j2e_AC_lEeyX_uD1Ep--ZA" aggregation="composite" association="_pXhlsC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_sqo8QC_lEeyX_uD1Ep--ZA" name="E_Account_Class22" memberEnd="_sqo8QS_lEeyX_uD1Ep--ZA _sqpjUC_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_sqo8QS_lEeyX_uD1Ep--ZA" name="extension_Account" type="_HBAd8C_kEeyX_uD1Ep--ZA" aggregation="composite" association="_sqo8QC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_tMIfwC_lEeyX_uD1Ep--ZA" name="ATMToBank">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xRE74C_lEeyX_uD1Ep--ZA" name="base_Dependency" association="_xREU0C_lEeyX_uD1Ep--ZA">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Dependency"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xRE74S_lEeyX_uD1Ep--ZA"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_xREU0C_lEeyX_uD1Ep--ZA" name="E_ATMToBank_Dependency24" memberEnd="_xREU0S_lEeyX_uD1Ep--ZA _xRE74C_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_xREU0S_lEeyX_uD1Ep--ZA" name="extension_ATMToBank" type="_tMIfwC_lEeyX_uD1Ep--ZA" aggregation="composite" association="_xREU0C_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_7gpHMC_lEeyX_uD1Ep--ZA" name="E_ATM_Class25" memberEnd="_7gpuQC_lEeyX_uD1Ep--ZA _7gpuQS_lEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_7gpuQC_lEeyX_uD1Ep--ZA" name="extension_ATM" type="_FcCrQC_kEeyX_uD1Ep--ZA" aggregation="composite" association="_7gpHMC_lEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_DofYEC_mEeyX_uD1Ep--ZA" name="E_Bank_Class26" memberEnd="_Dof_IC_mEeyX_uD1Ep--ZA _Dof_IS_mEeyX_uD1Ep--ZA">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_Dof_IC_mEeyX_uD1Ep--ZA" name="extension_Bank" type="_KR-fcC_kEeyX_uD1Ep--ZA" aggregation="composite" association="_DofYEC_mEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_I-B5YC_mEeyX_uD1Ep--ZA" name="Withdrawal">
+    <generalization xmi:type="uml:Generalization" xmi:id="_WnjDEC_mEeyX_uD1Ep--ZA" general="_LeMa8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_MD9vkC_mEeyX_uD1Ep--ZA" name="Deposit">
+    <generalization xmi:type="uml:Generalization" xmi:id="_YCLOAC_mEeyX_uD1Ep--ZA" general="_LeMa8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_PgXlAC_mEeyX_uD1Ep--ZA" name="BalanceTransfer">
+    <generalization xmi:type="uml:Generalization" xmi:id="_ZW92sC_mEeyX_uD1Ep--ZA" general="_LeMa8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_PgXlAS_mEeyX_uD1Ep--ZA" name="BalanceInquiry">
+    <generalization xmi:type="uml:Generalization" xmi:id="_YrAIkC_mEeyX_uD1Ep--ZA" general="_LeMa8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_atDf4C_mEeyX_uD1Ep--ZA" name="CheckingAccount">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hdRPcC_mEeyX_uD1Ep--ZA" general="_HBAd8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_eTjFcC_mEeyX_uD1Ep--ZA" name="SavingsAccount">
+    <generalization xmi:type="uml:Generalization" xmi:id="_iIcTYC_mEeyX_uD1Ep--ZA" general="_HBAd8C_kEeyX_uD1Ep--ZA"/>
+  </packagedElement>
+</uml:Profile>
