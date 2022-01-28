@@ -1,0 +1,27 @@
+@startuml
+title Battery
+state "Laptop Battery" as LaptopBattery {
+  [*] --> Empty
+  state "Full" as Full {
+    Full --> 80Charged : Battery draining
+  }
+  state "80% Charged" as 80Charged {
+    80Charged --> 60Charged : Battery draining
+  }
+  state "60% Charged" as 60Charged {
+    60Charged --> 80Charged : Battery charging
+    60Charged --> 40Charged : Battery draining
+  }
+  state "40% Charged" as 40Charged {
+    40Charged --> 60Charged : Battery charging
+    40Charged --> 25Charged : Battery draining
+  }
+  state "25% Charged" as 25Charged {
+    25Charged --> 40Charged : Battery charging
+    25Charged --> Empty : Battery draining
+  }
+  state "Empty" as Empty {
+    Empty --> 25Charged : Battery charging
+  }
+}
+@enduml

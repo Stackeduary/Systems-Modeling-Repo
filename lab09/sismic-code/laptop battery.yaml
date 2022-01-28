@@ -1,0 +1,42 @@
+statechart:
+  name: Battery
+  root state:
+    name: Laptop Battery
+    initial: Empty
+
+    states:
+      - name: Empty
+        transitions:
+          - target: 25% Charged
+            event: Battery charging
+
+      - name: 25% Charged
+        transitions:
+          - target: 40% Charged
+            event: Battery charging
+          - target: Empty
+            event: Battery draining
+
+      - name: 40% Charged
+        transitions:
+          - target: 60% Charged
+            event: Battery charging
+          - target: 25% Charged
+            event: Battery draining
+
+      - name: 60% Charged
+        transitions:
+          - target: 80% Charged
+            event: Battery charging
+          - target: 40% Charged
+            event: Battery draining      
+
+      - name: 80% Charged
+        transitions:
+          - target: 60% Charged
+            event: Battery draining
+
+      - name: Full
+        transitions:
+          - target: 80% Charged
+            event: Battery draining
