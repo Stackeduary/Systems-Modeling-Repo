@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Customer</OriginalElement>
+  <nodes>
+    <node x="439.7791600641334" y="0.0">Account</node>
+    <node x="71.92519680704106" y="878.6118963257949">Bank</node>
+    <node x="792.3409816643101" y="737.1338613674181">Customer</node>
+    <node x="0.0" y="494.0508081132001">TestCLass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Bank" target="Customer" relationship="DEPENDENCY">
+      <point x="0.5094558628198911" y="4.973977756669115" />
+      <point x="0.5094558628198911" y="4.973977756669001" />
+    </edge>
+    <edge source="Account" target="Bank" relationship="CREATE">
+      <point x="5.542979405917663" y="0.0" />
+      <point x="5.54297940591772" y="0.0" />
+    </edge>
+    <edge source="TestCLass" target="Customer" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Account" target="Bank" relationship="TO_ONE">
+      <point x="-4.510209793186277" y="-2.158241789384647" />
+      <point x="-4.510209793186334" y="-2.158241789384647" />
+    </edge>
+    <edge source="Customer" target="Account" relationship="DEPENDENCY">
+      <point x="-5.5293680853411615" y="0.0" />
+      <point x="-5.529368085341048" y="0.0" />
+    </edge>
+    <edge source="TestCLass" target="Bank" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Customer" target="Account" relationship="TO_ONE">
+      <point x="4.5213123116685665" y="-2.134885238216384" />
+      <point x="4.5213123116685665" y="-2.1348852382163273" />
+    </edge>
+    <edge source="Bank" target="Customer" relationship="TO_MANY">
+      <point x="0.0" y="-5.026158383294046" />
+      <point x="0.0" y="-5.026158383293932" />
+    </edge>
+    <edge source="TestCLass" target="Account" relationship="CREATE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.8683942225998301" showDependencies="true" x="514.4999999999998" y="578.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
